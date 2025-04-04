@@ -4,6 +4,7 @@ import TutorSection from "../../components/Home/TutorSection/TutorSection";
 import StudySessions from "../../components/Home/StudySection/StudySession";
 import ExtraSection from "./ExtraSection";
 import InstitutionSection from "./InstitutionSection";
+import FAQSection from "../../components/Home/FAQ/FAQSection";
 
 const Home = () => {
   return (
@@ -33,6 +34,10 @@ const Home = () => {
       </h1>
       <div>
         <TutorSection />
+      </div>
+      {/* FAQ Section */}
+      <div>
+        <FAQSection></FAQSection>
       </div>
     </div>
   );
